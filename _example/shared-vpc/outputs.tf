@@ -7,4 +7,3 @@ output "service_project" {
   description = "The service project the load balancer is in."
   value       = var.service_project
 }
-

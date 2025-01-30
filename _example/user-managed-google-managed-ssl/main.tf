@@ -236,4 +236,3 @@ resource "google_storage_object_acl" "image-acl" {
   predefined_acl = "publicRead"
 }
 
-

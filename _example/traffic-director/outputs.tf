@@ -7,4 +7,3 @@ output "service_project" {
   description = "The service project the load balancer is in."
   value       = module.lb_traffic.backend_services
 }
-

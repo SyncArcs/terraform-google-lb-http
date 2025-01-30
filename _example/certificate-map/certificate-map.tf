@@ -30,4 +30,3 @@ resource "google_certificate_manager_certificate_map_entry" "map_entry_web1" {
   certificates = [google_certificate_manager_certificate.all.id]
   hostname     = "ashish.influbot.ai"
 }
-

@@ -448,4 +448,3 @@ resource "google_compute_firewall" "default-hc" {
   }
 }
 
-

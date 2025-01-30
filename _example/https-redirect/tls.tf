@@ -30,4 +30,3 @@ resource "google_compute_ssl_certificate" "example" {
   private_key = tls_private_key.example.private_key_pem
   certificate = tls_self_signed_cert.example.cert_pem
 }
-

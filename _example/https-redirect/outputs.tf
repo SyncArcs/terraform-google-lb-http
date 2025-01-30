@@ -13,4 +13,3 @@ output "backend_services" {
   value       = module.lb-http.backend_services
   description = "Description of the output goes here"
 }
-
