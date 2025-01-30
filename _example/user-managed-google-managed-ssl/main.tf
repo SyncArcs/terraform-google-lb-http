@@ -235,3 +235,5 @@ resource "google_storage_object_acl" "image-acl" {
   object         = google_storage_bucket_object.image.name
   predefined_acl = "publicRead"
 }
+
+

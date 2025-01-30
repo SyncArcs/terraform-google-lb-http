@@ -308,3 +308,5 @@ variable "certificate_map" {
   type    = string
   default = "certmgr-map" # Ensure this is just the name, NOT a full path
 }
+
+

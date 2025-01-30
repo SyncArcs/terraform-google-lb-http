@@ -9,3 +9,4 @@ variable "service_project" {
   default     = "testing-gcp-ops"
   description = "ID for the Shared VPC service project where instances will be deployed"
 }
+
